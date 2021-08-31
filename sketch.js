@@ -12,23 +12,25 @@ function draw()
   if(keyIsDown(RIGHT_ARROW))
   {
     background("Red");
+    box.x=box.x+1;
   }
 
   if (keyIsDown(LEFT_ARROW)) 
   {
     background("blue");
-    
+    box.x=box.x-1;
   }
  
     if (keyIsDown(UP_ARROW)) 
   {
     background("yellow");
-   
+   box.y=box.y-1;
   }
 
   if (keyIsDown(DOWN_ARROW)) 
   {
     background("green");
+    box.y=box.y+1;
   }
 
   
